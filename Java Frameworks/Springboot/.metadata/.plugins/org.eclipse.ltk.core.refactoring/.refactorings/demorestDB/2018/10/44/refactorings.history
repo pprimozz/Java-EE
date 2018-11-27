@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Alien.java&apos; to &apos;springbootrest/src/main/java/com.telusko&apos;&#x0D;&#x0A;- Original project: &apos;demorestDB&apos;&#x0D;&#x0A;- Destination element: &apos;springbootrest/src/main/java/com.telusko&apos;&#x0D;&#x0A;- Original element: &apos;com.telusko.demorestDB.Alien.java&apos;" description="Copy compilation unit" destination="=springbootrest/src\/main\/java&lt;com.telusko" element1="/src\/main\/java&lt;com.telusko.demorestDB{Alien.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1540847460720" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Programiranje\JavaEE\Java Frameworks\Spring MVC\DemoMVC"/>
+		<item value="D:\Programiranje\JavaEE\LoginExample"/>
+		<item value="D:\Programiranje\JavaEE\REST\demorestdb"/>
+		<item value="D:\Programiranje\JavaEE\sendRedirect_URLRewritting"/>
+	</list>
+</section>

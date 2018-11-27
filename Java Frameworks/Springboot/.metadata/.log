@@ -1,0 +1,2696 @@
+!SESSION 2018-10-29 21:52:16.431 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-29 21:52:45.156
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-29 21:52:45.156
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@270f7b4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56b704ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-29 21:52:47.814
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:33.507
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.495
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hnOvmraW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.495
+!MESSAGE subscribing to classpath changes: sts4.classpath.hnOvmraW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.496
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.497
+!MESSAGE subsribers = [sts4.classpath.hnOvmraW]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.497
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.498
+!MESSAGE project springbootrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.499
+!MESSAGE project springbootrest SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.499
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:34.499
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hnOvmraW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.138
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.143
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.145
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.146
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.365
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.624
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.629
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.651
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN | CONTENT}
+	springbootrest[+]: {}
+	ResourceDelta(/springbootrest)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.652
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.652
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.654
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.654
+!MESSAGE executing callback sts4.classpath.hnOvmraW springbootrest false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.658
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		<project root>[*]: {CHILDREN}
+			target[*]: {CONTENT}
+				ResourceDelta(/springbootrest/target/test-classes)[+]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.660
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		<project root>[*]: {CHILDREN}
+			target[*]: {CONTENT}
+				ResourceDelta(/springbootrest/target/test-classes)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.753
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		<project root>[*]: {CHILDREN}
+			src.main.java[*]: {CONTENT}
+			src.main.java.com[*]: {CONTENT}
+			src.main.java.com.telusko[*]: {CHILDREN | CONTENT}
+				SpringbootrestApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.758
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		<project root>[*]: {CHILDREN}
+			src.main.resources[*]: {CONTENT}
+				ResourceDelta(/springbootrest/src/main/resources/application.properties)[*]
+				ResourceDelta(/springbootrest/src/main/resources/static)[*]
+			src.main.resources.templates[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.761
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		<project root>[*]: {CHILDREN}
+			src.main.resources[*]: {CONTENT}
+				ResourceDelta(/springbootrest/src/main/resources/application.properties)[*]
+				ResourceDelta(/springbootrest/src/main/resources/static)[*]
+			src.main.resources.templates[*]: {CONTENT}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.771
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		<project root>[*]: {CHILDREN}
+			src.test.java[*]: {CONTENT}
+			src.test.java.com[*]: {CONTENT}
+			src.test.java.com.telusko[*]: {CHILDREN | CONTENT}
+				SpringbootrestApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.780
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.784
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.788
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.791
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.794
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:48.798
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.527
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED | RESOLVED CLASSPATH CHANGED}
+		<project root>[*]: {REMOVED FROM CLASSPATH}
+		src/main/java[*]: {CHILDREN | CONTENT | ADDED TO CLASSPATH}
+			com[*]: {CONTENT}
+			com.telusko[*]: {CHILDREN | CONTENT}
+				SpringbootrestApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		src/main/resources[*]: {CONTENT | ADDED TO CLASSPATH}
+			ResourceDelta(/springbootrest/src/main/resources/application.properties)[*]
+			ResourceDelta(/springbootrest/src/main/resources/static)[*]
+			ResourceDelta(/springbootrest/src/main/resources/templates)[*]
+		src/test/java[*]: {CHILDREN | CONTENT | ADDED TO CLASSPATH}
+			com[*]: {CONTENT}
+			com.telusko[*]: {CHILDREN | CONTENT}
+				SpringbootrestApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		C:\Program Files\Java\jre1.8.0_181\lib\resources.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\rt.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\jce.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\access-bridge-64.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\cldrdata.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\dnsns.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\jaccess.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\jfxrt.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\localedata.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\nashorn.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunec.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunjce_provider.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunmscapi.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunpkcs11.jar[+]: {}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\zipfs.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.6.RELEASE\spring-boot-starter-web-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.6.RELEASE\spring-boot-starter-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot\2.0.6.RELEASE\spring-boot-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.6.RELEASE\spring-boot-autoconfigure-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.6.RELEASE\spring-boot-starter-logging-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar[+]: {}
+		C:\Users\Primož\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar[+]: {}
+		C:\Users\Primož\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.6.RELEASE\spring-boot-starter-json-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.7\jackson-datatype-jdk8-2.9.7.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.7\jackson-datatype-jsr310-2.9.7.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.7\jackson-module-parameter-names-2.9.7.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.6.RELEASE\spring-boot-starter-tomcat-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.13.Final\hibernate-validator-6.0.13.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-web\5.0.10.RELEASE\spring-web-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-beans\5.0.10.RELEASE\spring-beans-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-webmvc\5.0.10.RELEASE\spring-webmvc-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-aop\5.0.10.RELEASE\spring-aop-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-context\5.0.10.RELEASE\spring-context-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-expression\5.0.10.RELEASE\spring-expression-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.6.RELEASE\spring-boot-starter-test-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test\2.0.6.RELEASE\spring-boot-test-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.6.RELEASE\spring-boot-test-autoconfigure-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[+]: {}
+		C:\Users\Primož\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[+]: {}
+		C:\Users\Primož\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[+]: {}
+		C:\Users\Primož\.m2\repository\junit\junit\4.12\junit-4.12.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[+]: {}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[+]: {}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-core\5.0.10.RELEASE\spring-core-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-jcl\5.0.10.RELEASE\spring-jcl-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-test\5.0.10.RELEASE\spring-test-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[+]: {}
+		ResourceDelta(/springbootrest/.classpath)[+]
+		ResourceDelta(/springbootrest/.gitignore)[*]
+		ResourceDelta(/springbootrest/.mvn)[*]
+		ResourceDelta(/springbootrest/.project)[*]
+		ResourceDelta(/springbootrest/.settings)[*]
+		ResourceDelta(/springbootrest/mvnw)[*]
+		ResourceDelta(/springbootrest/mvnw.cmd)[*]
+		ResourceDelta(/springbootrest/pom.xml)[*]
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.596
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.630
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.642
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/.project)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.648
+!MESSAGE executing callback sts4.classpath.hnOvmraW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.649
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.649
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.651
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.651
+!MESSAGE executing callback sts4.classpath.hnOvmraW springbootrest false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:50.701
+!MESSAGE executing callback sts4.classpath.hnOvmraW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:51.006
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:59.977
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot\2.0.6.RELEASE\spring-boot-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.6.RELEASE\spring-boot-autoconfigure-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.6.RELEASE\spring-boot-starter-logging-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.6.RELEASE\spring-boot-starter-json-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.7\jackson-datatype-jdk8-2.9.7.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.7\jackson-datatype-jsr310-2.9.7.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.7\jackson-module-parameter-names-2.9.7.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.6.RELEASE\spring-boot-starter-tomcat-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.13.Final\hibernate-validator-6.0.13.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-web\5.0.10.RELEASE\spring-web-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-beans\5.0.10.RELEASE\spring-beans-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-webmvc\5.0.10.RELEASE\spring-webmvc-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-aop\5.0.10.RELEASE\spring-aop-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-context\5.0.10.RELEASE\spring-context-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-expression\5.0.10.RELEASE\spring-expression-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.6.RELEASE\spring-boot-starter-test-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test\2.0.6.RELEASE\spring-boot-test-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.6.RELEASE\spring-boot-test-autoconfigure-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-core\5.0.10.RELEASE\spring-core-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-jcl\5.0.10.RELEASE\spring-jcl-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-test\5.0.10.RELEASE\spring-test-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {SOURCE ATTACHED}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:59.977
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:59.978
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:59.981
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:59.981
+!MESSAGE executing callback sts4.classpath.hnOvmraW springbootrest false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:56:59.988
+!MESSAGE executing callback sts4.classpath.hnOvmraW SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2018-10-29 22:00:50.736
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:28.907
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				SpringbootrestApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:28.944
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java/com/telusko[*]: {CHILDREN}
+			com[+]: {}
+			com.telusko[+]: {}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.com[+]: {}
+			com.telusko.com.telusko[+]: {}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-29 22:01:28.950
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [com.telusko [in src/main/java/com/telusko [in springbootrest]] does not exist]
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:180)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:436)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:301)
+	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:260)
+	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1172)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:191)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:118)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:994)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:938)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$9(CompletionProposalPopup.java:934)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$4.widgetDefaultSelected(CompletionProposalPopup.java:679)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-10-29 22:01:28.951
+!MESSAGE com.telusko [in src/main/java/com/telusko [in springbootrest]] does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:29.113
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:47.165
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java/com/telusko[*]: {CHILDREN}
+			<default>[*]: {CHILDREN}
+				SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:47.168
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hnOvmraW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:47.168
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hnOvmraW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:47.169
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:47.169
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hnOvmraW => OK
+!SESSION 2018-10-29 22:01:51.798 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-29 22:01:54.308
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-29 22:01:54.308
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7296fe0b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a5066f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:57.360
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-29 22:01:58.178
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.428
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gVXGXpWK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.429
+!MESSAGE subscribing to classpath changes: sts4.classpath.gVXGXpWK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.431
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.431
+!MESSAGE subsribers = [sts4.classpath.gVXGXpWK]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.432
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.433
+!MESSAGE project springbootrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.434
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.434
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.434
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gVXGXpWK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.434
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.439
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.439
+!MESSAGE executing callback sts4.classpath.gVXGXpWK springbootrest false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:01:58.831
+!MESSAGE executing callback sts4.classpath.gVXGXpWK SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2018-10-29 22:02:07.591
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:04:45.695
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienResource.java[+]: {}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:04:45.777
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:04:45.854
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:04:46.419
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:08:22.504
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:08:22.748
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:31.253
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:31.253
+!MESSAGE Preparing classpath changed notification demorestDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:31.253
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:31.256
+!MESSAGE classpath=42 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:31.256
+!MESSAGE executing callback sts4.classpath.gVXGXpWK demorestDB false 42
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:31.307
+!MESSAGE executing callback sts4.classpath.gVXGXpWK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:10:32.964
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CONTENT}
+		ResourceDelta(/demorestDB/src)[*]
+		ResourceDelta(/demorestDB/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:11:00.584
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:11:00.718
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				Alien.java[+]: {}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:11:00.778
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:12:43.525
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:12:43.706
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:15:19.951
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:15:20.203
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:16:33.398
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:16:33.535
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:16:40.849
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] Alien.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:19:00.068
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:19:00.241
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:19:12.321
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:19:12.536
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:19:46.842
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.eclipse.ui 4 0 2018-10-29 22:19:56.220
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3999)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3555)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:58)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 64 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:32.917
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:41.074
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT | RESOLVED CLASSPATH CHANGED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.6.RELEASE\spring-boot-starter-web-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.6.RELEASE\spring-boot-starter-json-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.7\jackson-datatype-jdk8-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.7\jackson-datatype-jsr310-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.7\jackson-module-parameter-names-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.6.RELEASE\spring-boot-starter-tomcat-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.13.Final\hibernate-validator-6.0.13.Final.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-web\5.0.10.RELEASE\spring-web-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-beans\5.0.10.RELEASE\spring-beans-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-webmvc\5.0.10.RELEASE\spring-webmvc-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-aop\5.0.10.RELEASE\spring-aop-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-expression\5.0.10.RELEASE\spring-expression-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.6.RELEASE\spring-boot-starter-test-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test\2.0.6.RELEASE\spring-boot-test-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.6.RELEASE\spring-boot-test-autoconfigure-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-core\5.0.10.RELEASE\spring-core-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-jcl\5.0.10.RELEASE\spring-jcl-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-test\5.0.10.RELEASE\spring-test-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.6.RELEASE\spring-boot-starter-data-jpa-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.6.RELEASE\spring-boot-starter-aop-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.0.6.RELEASE\spring-boot-starter-jdbc-2.0.6.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\com\zaxxer\HikariCP\2.7.9\HikariCP-2.7.9.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-jdbc\5.0.10.RELEASE\spring-jdbc-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\hibernate\hibernate-core\5.2.17.Final\hibernate-core-5.2.17.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.2.Final\hibernate-jpa-2.1-api-1.0.2.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar[+]: {}
+		C:\Users\Primož\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\data\spring-data-jpa\2.0.11.RELEASE\spring-data-jpa-2.0.11.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\data\spring-data-commons\2.0.11.RELEASE\spring-data-commons-2.0.11.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-orm\5.0.10.RELEASE\spring-orm-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-tx\5.0.10.RELEASE\spring-tx-5.0.10.RELEASE.jar[+]: {}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-aspects\5.0.10.RELEASE\spring-aspects-5.0.10.RELEASE.jar[+]: {}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:41.074
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:41.075
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:41.079
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:41.079
+!MESSAGE executing callback sts4.classpath.gVXGXpWK springbootrest false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:41.094
+!MESSAGE executing callback sts4.classpath.gVXGXpWK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:42.359
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-29 22:22:44.916
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2018-10-29 22:22:44.917
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2018-10-29 22:22:44.917
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:46.779
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.6.RELEASE\spring-boot-starter-data-jpa-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.6.RELEASE\spring-boot-starter-aop-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.0.6.RELEASE\spring-boot-starter-jdbc-2.0.6.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\com\zaxxer\HikariCP\2.7.9\HikariCP-2.7.9.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-jdbc\5.0.10.RELEASE\spring-jdbc-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\hibernate\hibernate-core\5.2.17.Final\hibernate-core-5.2.17.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.2.Final\hibernate-jpa-2.1-api-1.0.2.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\data\spring-data-jpa\2.0.11.RELEASE\spring-data-jpa-2.0.11.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\data\spring-data-commons\2.0.11.RELEASE\spring-data-commons-2.0.11.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-orm\5.0.10.RELEASE\spring-orm-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-tx\5.0.10.RELEASE\spring-tx-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-aspects\5.0.10.RELEASE\spring-aspects-5.0.10.RELEASE.jar[*]: {SOURCE ATTACHED}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:46.779
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:46.780
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:46.784
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:46.784
+!MESSAGE executing callback sts4.classpath.gVXGXpWK springbootrest false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:22:46.788
+!MESSAGE executing callback sts4.classpath.gVXGXpWK SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-29 22:22:48.030
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2018-10-29 22:22:48.030
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2018-10-29 22:22:48.031
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:24:38.543
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/springbootrest/src/main/resources/application.properties)[*]
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:24:38.681
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-29 22:26:28.505
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverRegion(LSBasedHover.java:260)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:142)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-29 22:26:28.560
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:26:46.162
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/springbootrest/src/main/resources/application.properties)[*]
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:26:46.357
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:40.829
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:41.820
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT | RESOLVED CLASSPATH CHANGED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.6.RELEASE\spring-boot-starter-web-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.6.RELEASE\spring-boot-starter-json-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.7\jackson-datatype-jdk8-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.7\jackson-datatype-jsr310-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.7\jackson-module-parameter-names-2.9.7.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.6.RELEASE\spring-boot-starter-tomcat-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.13.Final\hibernate-validator-6.0.13.Final.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-web\5.0.10.RELEASE\spring-web-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-webmvc\5.0.10.RELEASE\spring-webmvc-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-expression\5.0.10.RELEASE\spring-expression-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.6.RELEASE\spring-boot-starter-test-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test\2.0.6.RELEASE\spring-boot-test-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.6.RELEASE\spring-boot-test-autoconfigure-2.0.6.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-core\5.0.10.RELEASE\spring-core-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-jcl\5.0.10.RELEASE\spring-jcl-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\springframework\spring-test\5.0.10.RELEASE\spring-test-5.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {REORDERED}
+		C:\Users\Primož\.m2\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\Primož\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar[*]: {ADDED TO CLASSPATH}
+		ResourceDelta(/springbootrest/pom.xml)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:41.820
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:41.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:41.824
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:41.824
+!MESSAGE executing callback sts4.classpath.gVXGXpWK springbootrest false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:41.882
+!MESSAGE executing callback sts4.classpath.gVXGXpWK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:27:43.422
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:28:29.007
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/springbootrest/src/main/resources/application.properties)[*]
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:28:29.151
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:29:16.159
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienRepository.java[+]: {}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:29:16.207
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:29:16.360
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:29:16.470
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:32:19.854
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:32:20.154
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:32:37.500
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				Alien.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:32:41.675
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:32:42.263
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:33:23.220
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] Alien.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:33:38.443
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] Alien.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:33:38.762
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:34:00.014
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] Alien.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/springbootrest/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:34:00.336
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.489
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.499
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.508
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.536
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				Alien.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.552
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.554
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gVXGXpWK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.554
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gVXGXpWK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.554
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:35:41.554
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gVXGXpWK => OK
+!SESSION 2018-10-29 22:46:48.699 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-29 22:46:51.149
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-29 22:46:51.149
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74619273,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38c55a8a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:54.192
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-29 22:46:55.043
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.152
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tqYbNEhg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.152
+!MESSAGE subscribing to classpath changes: sts4.classpath.tqYbNEhg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.152
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.152
+!MESSAGE subsribers = [sts4.classpath.tqYbNEhg]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.152
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.157
+!MESSAGE project springbootrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.157
+!MESSAGE project demorestDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.157
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.157
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.157
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.157
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tqYbNEhg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.162
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.167
+!MESSAGE executing callback sts4.classpath.tqYbNEhg springbootrest false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.512
+!MESSAGE executing callback sts4.classpath.tqYbNEhg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.517
+!MESSAGE Preparing classpath changed notification demorestDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.517
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.522
+!MESSAGE classpath=42 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:55.522
+!MESSAGE executing callback sts4.classpath.tqYbNEhg demorestDB false 42
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:56.250
+!MESSAGE executing callback sts4.classpath.tqYbNEhg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:58.101
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:58.105
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tqYbNEhg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:58.106
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tqYbNEhg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:58.106
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 22:46:58.106
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tqYbNEhg => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-29 22:46:58.326
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-30 21:01:36.462 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-30 21:01:39.368
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-30 21:01:39.368
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49925d21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11170228,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:42.924
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-30 21:01:43.846
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.165
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ddXaNmNI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.166
+!MESSAGE subscribing to classpath changes: sts4.classpath.ddXaNmNI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.167
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.168
+!MESSAGE subsribers = [sts4.classpath.ddXaNmNI]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.168
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.184
+!MESSAGE project springbootrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.184
+!MESSAGE project demorestDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.185
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.185
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.185
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ddXaNmNI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.186
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.202
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.203
+!MESSAGE executing callback sts4.classpath.ddXaNmNI springbootrest false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.572
+!MESSAGE executing callback sts4.classpath.ddXaNmNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.573
+!MESSAGE Preparing classpath changed notification demorestDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.573
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.575
+!MESSAGE classpath=42 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:44.576
+!MESSAGE executing callback sts4.classpath.ddXaNmNI demorestDB false 42
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:45.085
+!MESSAGE executing callback sts4.classpath.ddXaNmNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:53.580
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:01:55.103
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:01.506
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:06.741
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/src)[*]
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:08.362
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CONTENT}
+		ResourceDelta(/demorestDB/src)[*]
+		ResourceDelta(/demorestDB/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.939
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.950
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.964
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.984
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.986
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ddXaNmNI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.986
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ddXaNmNI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.987
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:02:27.987
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ddXaNmNI => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-30 21:02:28.250
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-30 21:11:36.904 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-30 21:11:39.426
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-30 21:11:39.426
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e0163cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b289535,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:42.488
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-30 21:11:43.254
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.375
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PdIIzlqL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.376
+!MESSAGE subscribing to classpath changes: sts4.classpath.PdIIzlqL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.378
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.378
+!MESSAGE subsribers = [sts4.classpath.PdIIzlqL]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.379
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.382
+!MESSAGE project springbootrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.383
+!MESSAGE project demorestDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.383
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.384
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PdIIzlqL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.386
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.386
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.404
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.404
+!MESSAGE executing callback sts4.classpath.PdIIzlqL springbootrest false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.752
+!MESSAGE executing callback sts4.classpath.PdIIzlqL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.752
+!MESSAGE Preparing classpath changed notification demorestDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.752
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.752
+!MESSAGE classpath=42 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:43.752
+!MESSAGE executing callback sts4.classpath.PdIIzlqL demorestDB false 42
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:11:44.323
+!MESSAGE executing callback sts4.classpath.PdIIzlqL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:12:27.370
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:13:23.070
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:13:24.531
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:13:44.897
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] Alien.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.560
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.570
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.596
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.603
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.615
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				Alien.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.630
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PdIIzlqL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.630
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PdIIzlqL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.630
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:14:42.630
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PdIIzlqL => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-30 21:14:42.844
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-30 21:37:02.035 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-30 21:37:04.533
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-30 21:37:04.533
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b289535,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74619273,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:06.688
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.321
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DoylbKsR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.321
+!MESSAGE subscribing to classpath changes: sts4.classpath.DoylbKsR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.321
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.321
+!MESSAGE subsribers = [sts4.classpath.DoylbKsR]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.321
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.850
+!MESSAGE project springbootrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.850
+!MESSAGE project demorestDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.850
+!MESSAGE Preparing classpath changed notification springbootrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.850
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.850
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:07.850
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DoylbKsR => OK
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-30 21:37:07.866
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.745
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.745
+!MESSAGE executing callback sts4.classpath.DoylbKsR springbootrest false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.830
+!MESSAGE executing callback sts4.classpath.DoylbKsR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.830
+!MESSAGE Preparing classpath changed notification demorestDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.830
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.832
+!MESSAGE classpath=42 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.832
+!MESSAGE executing callback sts4.classpath.DoylbKsR demorestDB false 42
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:08.859
+!MESSAGE executing callback sts4.classpath.DoylbKsR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:09.485
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CONTENT}
+		ResourceDelta(/demorestDB/src)[*]
+		ResourceDelta(/demorestDB/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:09.497
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.telusko.demorestDB[*]: {CHILDREN}
+				AlienRepository.java[*]: {CONTENT | PRIMARY RESOURCE}
+				AlienResource.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/demorestDB/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:10.990
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:11.145
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	demorestDB[*]: {CONTENT}
+		ResourceDelta(/demorestDB/src)[*]
+		ResourceDelta(/demorestDB/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:12.722
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CONTENT}
+		ResourceDelta(/springbootrest/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:38.989
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:37:40.959
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				[Working copy] SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.529
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				SpringbootrestApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.544
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.569
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	springbootrest[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.telusko[*]: {CHILDREN}
+				AlienResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.571
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DoylbKsR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.571
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DoylbKsR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.572
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-30 21:41:21.572
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DoylbKsR => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-30 21:41:21.809
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-11-25 11:32:27.203 -----------------------------------------------
+eclipse.buildId=3.9.6.201809180749-RELEASE-e49
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.core.resources 4 567 2018-11-25 11:32:49.252
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2018-11-25 11:32:49.252
+!MESSAGE Could not read metadata for 'demorestDB'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/demorestDB)[567]: java.lang.Exception: The project description file (.project) for 'demorestDB' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:889)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:869)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:721)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1561)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2208)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:584)
+	at org.eclipse.osgi.container.Module.start(Module.java:452)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2018-11-25 11:32:49.253
+!MESSAGE The project description file (.project) for 'demorestDB' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'demorestDB' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:889)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:869)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:721)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1561)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2208)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:584)
+	at org.eclipse.osgi.container.Module.start(Module.java:452)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 2 0 2018-11-25 11:32:53.099
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-25 11:32:53.099
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20446296,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d436fb0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-25 11:32:55.916
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.core.runtime 4 0 2018-11-25 11:32:56.643
+!MESSAGE Invalid input url:platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.springframework.tooling.boot.ls".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:64)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:293)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:203)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:229)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:221)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:57)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:419)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:687)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:264)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:183)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:230)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:875)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:145)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:560)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:544)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:693)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:703)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1099)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 4 0 2018-11-25 11:32:56.644
+!MESSAGE Unable to resolve plug-in "org.springframework.tooling.boot.ls".
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.springframework.tooling.boot.ls".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:64)
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.resolve(PlatformURLPluginConnection.java:73)
+	at org.eclipse.core.internal.boot.PlatformURLHandler.openConnection(PlatformURLHandler.java:69)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:117)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:34)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:258)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:233)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:221)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:57)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:419)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:687)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:264)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:183)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:230)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:875)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:145)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:560)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:544)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:693)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:703)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1099)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.core.runtime 4 0 2018-11-25 11:32:56.645
+!MESSAGE Invalid input url:platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.springframework.tooling.boot.ls".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:64)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:293)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:203)
+	at org.eclipse.jface.resource.URLImageDescriptor.getStream(URLImageDescriptor.java:155)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:123)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$3(URLImageDescriptor.java:121)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageDataProvider.getImageData(URLImageDescriptor.java:77)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImageDataAtZoom(DPIUtil.java:404)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:732)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:274)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:183)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:230)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:875)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:145)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:560)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:544)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:693)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:703)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1099)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 2 0 2018-11-25 11:32:56.646
+!MESSAGE The image could not be loaded: URLImageDescriptor(platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif)
+!STACK 0
+org.eclipse.jface.resource.DeviceResourceException: Unable to create resource URLImageDescriptor(platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:185)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:230)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:875)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:145)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:560)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:544)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:693)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:703)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:689)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1099)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-25 11:33:00.714
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-25 11:37:26.635
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-25 11:38:39.651
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-25 12:06:00.436
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2018-11-25 12:25:55.337 -----------------------------------------------
+eclipse.buildId=3.9.6.201809180749-RELEASE-e49
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2018-11-25 12:26:00.789
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-25 12:26:00.789
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@341c0dfc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e0b68e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-25 12:26:03.805
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-11-25 16:13:39.819 -----------------------------------------------
+eclipse.buildId=3.9.6.201809180749-RELEASE-e49
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2018-11-25 16:13:44.433
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-25 16:13:44.433
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45cddfd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40dc2ade,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-25 16:13:47.591
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-11-26 20:55:43.651 -----------------------------------------------
+eclipse.buildId=3.9.6.201809180749-RELEASE-e49
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2018-11-26 20:55:48.410
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-26 20:55:48.410
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bca9b64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a61d819,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-26 20:55:54.149
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Primož'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-26 21:00:22.080
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-26 21:01:33.391
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-26 21:01:44.420
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-26 21:19:56.885
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

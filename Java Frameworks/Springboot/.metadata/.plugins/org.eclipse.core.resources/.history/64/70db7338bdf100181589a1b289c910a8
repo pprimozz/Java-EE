@@ -1,0 +1,6 @@
+insert into alien values(101,'Primoz');
+insert into alien values(102,'Alen');
+insert into alien values(103,'Simon');
+insert into alien values(104,'WhoCares');
+insert into alien values(105,'Somebody');
+insert into alien values(106,'Bitch');

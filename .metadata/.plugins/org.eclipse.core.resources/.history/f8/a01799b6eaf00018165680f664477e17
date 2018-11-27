@@ -1,0 +1,17 @@
+package com.telusko.web.dao;
+
+import com.telusko.web.model.Alien;
+
+public class AlienDao {
+	
+	public Alien getALien(int aid) {
+		
+		Alien a= new Alien();
+		a.setAid(101);
+		a.setAname("Navin");
+		a.setTech("java");
+		
+		return a;
+	}
+
+}

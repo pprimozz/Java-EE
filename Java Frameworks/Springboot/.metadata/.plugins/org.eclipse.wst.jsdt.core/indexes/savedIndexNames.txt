@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\Programiranje\JavaEE\Spring framework\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1070243907.index
+1296430332.index
+3494258236.index
+1586485658.index
+663372942.index
+1105242675.index
